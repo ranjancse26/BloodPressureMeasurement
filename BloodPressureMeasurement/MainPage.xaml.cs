@@ -21,7 +21,7 @@ namespace BloodPressureMeasurement
             textBlock1.Text = @"This application requires a connection to the Microsoft"+
                               @" HealthVault Service to store and retrieve the blood pressure information. You will need" +
                               @" to sign up for a free HealthVault account and authorize this" +
-                              @" application to access emotional state in your HealthVault" +
+                              @" application to access blood pressure readings from your HealthVault" +
                               @" record. Press 'I Agree' button to begin.";
             button1.Click += new RoutedEventHandler(authenticateHealthVault);
         }
